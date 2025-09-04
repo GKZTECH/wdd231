@@ -1,0 +1,36 @@
+/* Large screen layout */
+@media (min-width: 768px) {
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+    }
+    #menu {
+      display: none;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1rem;
+      margin: 1rem;
+      
+    }
+    section {
+        padding: 1rem;
+      }
+  
+    .about {
+      grid-column: 1 / 2;
+    }
+  
+    .photo {
+      grid-column: 2 / 3;
+    }
+  
+    .courses {
+      grid-column: 1 / 3;
+      
+    }
+  }
+  

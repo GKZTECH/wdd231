@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive WDD231 Student Home Page">
+  <meta name="author" content="Student Name">
+
+  <!-- Title -->
+  <title>WDD231 Home</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <!-- JS -->
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="images/logo.jpg" alt="Site Logo" class="logo">
+    <span class="site-name">Godfred Zonyrah</span>
+    <button id="menu" aria-label="Toggle Menu">&#9776;</button>
+  </header>
+
+  <!-- Navigation -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="chamber">Chamber Project</a></li>
+      <li><a href="final">Final Project</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Home</h1>
+
+    <!-- About Me Section -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Skilled Graphic Designer Available.
+        I am Godfred Zonyrah, a skilled professional in Graphic Designing, 3D animation, and illustrator, 
+        having obtained my Professional Certificate from IPMC. Throughout my career, I have consistently 
+        demonstrated efficiency, resourcefulness, and a strong work ethic in my previous roles.
+      </p>
+    </section>
+
+    <!-- Student Photo Section -->
+    <section class="photo">
+      <h2>Student Photo</h2>
+      <img src="images/profile.jpg" alt="Student Photo" class="student-photo">
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="filter-buttons">
+        <button id="all-courses">All</button>
+        <button id="cse-courses">CSE</button>
+        <button id="wdd-courses">WDD</button>
+      </div>
+      <div id="course-cards"></div>
+      <p id="total-credits"></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+        <a href="https://github.com/GKZTECH/wdd231" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/godfred-zonyrah-aa5089217/" target="_blank">LinkedIn</a>
+        <a href="https://x.com/ghgodfred2107" target="_blank">Twitter</a>
+    </div>
+    <p>&copy; <span id="year"></span> Godfred Zonyrah, Tema, Ghana</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
