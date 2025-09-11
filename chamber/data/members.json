@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Sahara Boutique",
+    "address": "123 Market St, Timbuktu",
+    "phone": "(223) 555-1000",
+    "website": "https://saharaboutique.com",
+    "image": "sahara.png",
+    "membership": 3
+  },
+  {
+    "name": "Desert Coffee",
+    "address": "45 Oasis Rd, Timbuktu",
+    "phone": "(223) 555-2000",
+    "website": "https://desertcoffee.com",
+    "image": "coffee.png",
+    "membership": 2
+  },
+  {
+    "name": "Mali Tech Solutions",
+    "address": "78 Innovation Ave, Timbuktu",
+    "phone": "(223) 555-3000",
+    "website": "https://malitech.com",
+    "image": "tech.png",
+    "membership": 1
+  },
+  {
+    "name": "Nomad Travel Agency",
+    "address": "67 Caravan Way, Timbuktu",
+    "phone": "(223) 555-4000",
+    "website": "https://nomadtravel.com",
+    "image": "travel.png",
+    "membership": 2
+  },
+  {
+    "name": "Golden Sands Hotel",
+    "address": "89 Sunset Blvd, Timbuktu",
+    "phone": "(223) 555-5000",
+    "website": "https://goldensands.com",
+    "image": "hotel.png",
+    "membership": 3
+  },
+  {
+    "name": "Oasis Market",
+    "address": "12 Palm St, Timbuktu",
+    "phone": "(223) 555-6000",
+    "website": "https://oasismarket.com",
+    "image": "market.png",
+    "membership": 1
+  },
+  {
+    "name": "Timbuktu Books",
+    "address": "34 Knowledge Ln, Timbuktu",
+    "phone": "(223) 555-7000",
+    "website": "https://timbuktubooks.com",
+    "image": "books.png",
+    "membership": 1
+  }
+]
