@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "main": { "temp": 28.5 },
+      "weather": [{ "description": "few clouds" }],
+      "dt_txt": "2025-09-15 12:00:00"
+    },
+    {
+      "main": { "temp": 27.3 },
+      "weather": [{ "description": "light rain" }],
+      "dt_txt": "2025-09-16 12:00:00"
+    },
+    {
+      "main": { "temp": 29.2 },
+      "weather": [{ "description": "clear sky" }],
+      "dt_txt": "2025-09-17 12:00:00"
+    },
+    {
+      "main": { "temp": 30.0 },
+      "weather": [{ "description": "scattered clouds" }],
+      "dt_txt": "2025-09-18 12:00:00"
+    }
+  ]
+}
