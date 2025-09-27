@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thank you for your membership application">
+  <meta name="author" content="Godfred Zonyrah">
+
+  <title>Chamber of Commerce | Thank You</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <style>
+    .confirmation {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+    
+    .user-data {
+      background: white;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    
+    .user-data p {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+      <button id="menu-toggle">Menu</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="confirmation">
+      <h1>Thank You for Your Application!</h1>
+      <p>We have received your membership application and will review it shortly.</p>
+      
+      <div class="user-data">
+        <h2>Application Summary</h2>
+        <p><strong>First Name:</strong> <span id="display-firstName"></span></p>
+        <p><strong>Last Name:</strong> <span id="display-lastName"></span></p>
+        <p><strong>Email:</strong> <span id="display-email"></span></p>
+        <p><strong>Phone:</strong> <span id="display-phone"></span></p>
+        <p><strong>Business Name:</strong> <span id="display-businessName"></span></p>
+        <p><strong>Application Date:</strong> <span id="display-timestamp"></span></p>
+      </div>
+      
+      <p>We will contact you within 2 business days to complete your membership process.</p>
+      <a href="index.html" class="cta">Return to Home</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: maccarthy28@gmail.com | 0573387270</p>
+    <p>&copy; <span id="year"></span> | Godfred Zonyrah | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+  <script src="scripts/thank.js" defer></script>
+</body>
+</html>
