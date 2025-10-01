@@ -1,0 +1,160 @@
+    /* Color Schema - Ghana flag colors */
+        :root {
+            --primary-color: #006B3F; /* Ghana Green - for headings and accents */
+            --secondary-color: #FEF9E7; /* Light Yellow - for backgrounds */
+            --accent-color: #CE1126; /* Ghana Red - for buttons and highlights */
+            --gold-color: #FFD700; /* Gold - for special accents */
+            --text-color: #2C2C2C; /* Dark Gray - for body text */
+            --light-text: #FFFFFF; /* White - for text on dark backgrounds */
+        }
+        
+        /* Typography */
+        body {
+            font-family: 'Noto Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Merriweather', Georgia, serif;
+            color: var(--primary-color);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 3px solid var(--gold-color);
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-top: 30px;
+        }
+        
+        .accent-text {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        
+        .gold-text {
+            color: var(--gold-color);
+            font-weight: bold;
+        }
+        
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: var(--light-text);
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        section {
+            background-color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .color-swatch {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+            border: 1px solid #ccc;
+        }
+        
+        .primary-color {
+            background-color: var(--primary-color);
+        }
+        
+        .accent-color {
+            background-color: var(--accent-color);
+        }
+        
+        .gold-color {
+            background-color: var(--gold-color);
+            color: var(--text-color);
+        }
+        
+        .text-color {
+            background-color: var(--text-color);
+        }
+        
+        .secondary-color {
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            border: 1px solid #ccc;
+        }
+        
+        .wireframe-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        .wireframe {
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        
+        .wireframe-box {
+            border: 1px dashed #999;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: #eee;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: var(--light-text);
+            margin-top: 30px;
+        }
+        
+        .menu-sample {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 4px solid var(--gold-color);
+        }
+        
+        .cultural-pattern {
+            background-image: 
+                linear-gradient(45deg, var(--primary-color) 25%, transparent 25%), 
+                linear-gradient(-45deg, var(--primary-color) 25%, transparent 25%), 
+                linear-gradient(45deg, transparent 75%, var(--primary-color) 75%), 
+                linear-gradient(-45deg, transparent 75%, var(--primary-color) 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            height: 10px;
+            margin: 10px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .wireframe-container {
+                flex-direction: column;
+            }
+        }
