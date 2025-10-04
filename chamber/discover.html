@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Discover the highlights of our region">
+  <meta name="author" content="Godfred Zonyrah">
+
+  <title>Chamber of Commerce | Discover</title>
+  <link rel="icon" href="images/favicon.webp">
+
+  <!-- Social meta -->
+  <meta property="og:title" content="Discover Our Region">
+  <meta property="og:description" content="Key sights, services, and features for visitors and new members.">
+  <meta property="og:image" content="images/greenway-trails.webp">
+  <meta property="og:url" content="https:https://gkztech.github.io/wdd231/chamber/discover.html">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/discover.css">
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+      <button id="menu-toggle">Menu</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="discover-main">
+    <section id="visit-msg" class="visit-message" aria-live="polite"></section>
+
+    <section class="discover-intro">
+      <h2>Explore the Area</h2>
+      <p>Factual highlights and places of interest for new members and visitors.</p>
+    </section>
+
+    <section class="discover-grid" id="discover-grid" role="list">
+      <!-- Cards inserted here by JS. Each card will receive class item1..item8 -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: maccarthy28@gmail.com | 0573387370</p>
+    <p>&copy; <span id="year"></span> | Godfred Zonyrah | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/discover.js" defer></script>
+</body>
+</html>

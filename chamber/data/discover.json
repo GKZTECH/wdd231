@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Old Harbor Park",
+    "address": "12 Shoreline Ave",
+    "image": "old-harbor.webp",
+    "description": "A waterfront park with walking trails and a small pier."
+  },
+  {
+    "id": 2,
+    "name": "Market Street Plaza",
+    "address": "90 Market St",
+    "image": "market-plaza.webp",
+    "description": "Open air market with local vendors and weekly events."
+  },
+  {
+    "id": 3,
+    "name": "Riverside Museum",
+    "address": "5 River Rd",
+    "image": "riverside-museum.webp",
+    "description": "Local history exhibits and rotating art displays."
+  },
+  {
+    "id": 4,
+    "name": "Greenway Trails",
+    "address": "Trailhead Park",
+    "image": "greenway-trails.webp",
+    "description": "Interconnected trails for walking, biking, and nature viewing."
+  },
+  {
+    "id": 5,
+    "name": "Downtown Theatre",
+    "address": "44 Main St",
+    "image": "downtown-theatre.webp",
+    "description": "Community theatre with monthly productions and workshops."
+  },
+  {
+    "id": 6,
+    "name": "City View Lookout",
+    "address": "Mountview Rd",
+    "image": "city-view.webp",
+    "description": "Scenic overlook with panoramic views of the city and bay."
+  },
+  {
+    "id": 7,
+    "name": "Sunrise Marina",
+    "address": "200 Dockside Ln",
+    "image": "sunrise-marina.webp",
+    "description": "Small marina with boat rentals and fishing charters."
+  },
+  {
+    "id": 8,
+    "name": "Heritage Farm",
+    "address": "77 Old Mill Rd",
+    "image": "heritage-farm.webp",
+    "description": "Family farm with seasonal produce and community activities."
+  }
+]
